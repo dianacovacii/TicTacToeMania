@@ -5,6 +5,8 @@ This was my first hackathon project, created during McGill's annual hackathon Mc
 ## Overview
 This project implements a fully playable Tic-Tac-Toe game where the player faces off agaisnt a computer opponent. The computer uses a set of heuristics to decide its next move (prioritizing winning, blocking, or takin strategic positions). 
 
+--- 
+
 ### The game features: 
    - Interactive graphical interface made with Pygame
    - Basic AI logic
