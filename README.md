@@ -52,7 +52,7 @@ This project implements a fully playable Tic-Tac-Toe game where the player faces
 4. Run the game
 
    ```bash
-   pytjon TicTacToeMania.py
+   python TicTacToeMania.py
    ```
 
 ### Future Improvements: 
