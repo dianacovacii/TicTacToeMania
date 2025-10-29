@@ -1,4 +1,43 @@
-TicTacToe Mania: 
+# TicTacToe Mania -- McHacks 2023
+A simple AI-powered Tic-Tac-Toe Game built with Pygame. 
+This was my first hackathon project, created during McGill's annual hackathon McHacks in 2023 with a partner. This was my introduction to game development and Python's Pygame library.
+
+## Overview
+This project implements a fully playable Tic-Tac-Toe game where the player faces off agaisnt a computer opponent. The computer uses a set of heuristics to decide its next move (prioritizing winning, blocking, or takin strategic positions). 
+
+### The game features: 
+   - Interactive graphical interface made with Pygame
+   - Basic AI logic
+   - Simple and smooth gameplay
+   - Clean 3x3 grid layout and visual X/O markers
+
+### How to play: 
+1. Run the Python script.
+2. Click on a square to place your O.
+3. The computer will automatically respond with X.
+4. The game ends when either side wins or all sports are filled.
+
+### Installation
+1. Clone the repository: 
+`git clone https://github.com/dianacovacii/TicTacToeMania.git`
+`cd TicTacToeMania`
+2. Install dependencies: 
+`pip install -r requirements.txt`
+3. Run the game
+`pyhton TicTacToeMania.py`
+
+### Future Improvements: 
+   - Improved AI using the Minimax algorithm
+   - Background music or sound effects
+   - Replay option at the end of the game
+
+### License
+This project is licensed under the [MIT License](LICENSE).
+
+
+
+
+
 
 Computer versus Human Player Tic-Tac-Toe game with an AI algorithm design to play optimally. 
 The game was developed as part of a Hackathon pygames project in collaboration with a partner. The AI uses a greedy algorithm to make decisions, prioritzing immediate wins and blocks opponent's moves. 
