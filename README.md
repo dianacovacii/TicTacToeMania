@@ -19,25 +19,27 @@ This project implements a fully playable Tic-Tac-Toe game where the player faces
 
 ### Installation
 1. Clone the repository: 
+
 `git clone https://github.com/dianacovacii/TicTacToeMania.git`
 `cd TicTacToeMania`
+2. Create a virtual environment (optional):
+
+`python -m venv venv`
+`.\venv\Scripts\Activate.ps1`  activate for Windows
+`source venv/vin/activate`    activate for Max/Linux
 2. Install dependencies: 
+
 `pip install -r requirements.txt`
 3. Run the game
+
 `pyhton TicTacToeMania.py`
 
 ### Future Improvements: 
    - Improved AI using the Minimax algorithm
    - Background music or sound effects
+   - Message on screen to report game outcome
    - Replay option at the end of the game
+
 
 ### License
 This project is licensed under the [MIT License](LICENSE).
-
-
-
-
-
-
-Computer versus Human Player Tic-Tac-Toe game with an AI algorithm design to play optimally. 
-The game was developed as part of a Hackathon pygames project in collaboration with a partner. The AI uses a greedy algorithm to make decisions, prioritzing immediate wins and blocks opponent's moves. 
