@@ -27,14 +27,33 @@ This project implements a fully playable Tic-Tac-Toe game where the player faces
    cd TicTacToeMania
    ```
    
-2. Create a virtual environment (optional):
-   `python -m venv venv`
-   `.\venv\Scripts\Activate.ps1`  **Windows**
-   `source venv/vin/activate`    **Mac/Linux**
-3. Install dependencies: 
-   `pip install -r requirements.txt`
+2. Create and activate a virtual environment (optional):
+   
+   ```bash
+   python -m venv venv
+   ```
+
+    **Windows:**
+   ``` powershell
+   .\venv\Scripts\Activate.ps1
+   ```
+
+    **Mac/Linux:**
+   ```bash
+   source venv/vin/activate
+   ```
+   
+3. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+   
 4. Run the game
-   `pyhton TicTacToeMania.py`
+
+   ```bash
+   pytjon TicTacToeMania.py
+   ```
 
 ### Future Improvements: 
    - Improved AI using the Minimax algorithm
