@@ -20,16 +20,20 @@ This project implements a fully playable Tic-Tac-Toe game where the player faces
 4. The game ends when either side wins or all sports are filled.
 
 ### Installation
-1. Clone the repository: 
-   `git clone https://github.com/dianacovacii/TicTacToeMania.git`
-   `cd TicTacToeMania`
-3. Create a virtual environment (optional):
+1. Clone the repository:
+   
+   ```bash
+   git clone https://github.com/dianacovacii/TicTacToeMania.git
+   cd TicTacToeMania
+   ```
+   
+2. Create a virtual environment (optional):
    `python -m venv venv`
    `.\venv\Scripts\Activate.ps1`  **Windows**
    `source venv/vin/activate`    **Mac/Linux**
-2. Install dependencies: 
+3. Install dependencies: 
    `pip install -r requirements.txt`
-3. Run the game
+4. Run the game
    `pyhton TicTacToeMania.py`
 
 ### Future Improvements: 
