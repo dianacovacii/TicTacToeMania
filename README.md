@@ -21,20 +21,16 @@ This project implements a fully playable Tic-Tac-Toe game where the player faces
 
 ### Installation
 1. Clone the repository: 
-`git clone https://github.com/dianacovacii/TicTacToeMania.git`
-`cd TicTacToeMania`
-
-2. Create a virtual environment (optional):
-`python -m venv venv`
-`.\venv\Scripts\Activate.ps1`  activate for Windows
-
-`source venv/vin/activate`    activate for Max/Linux
-
+   `git clone https://github.com/dianacovacii/TicTacToeMania.git`
+   `cd TicTacToeMania`
+3. Create a virtual environment (optional):
+   `python -m venv venv`
+   `.\venv\Scripts\Activate.ps1`  **Windows**
+   `source venv/vin/activate`    **Mac/Linux**
 2. Install dependencies: 
-`pip install -r requirements.txt`
-
+   `pip install -r requirements.txt`
 3. Run the game
-`pyhton TicTacToeMania.py`
+   `pyhton TicTacToeMania.py`
 
 ### Future Improvements: 
    - Improved AI using the Minimax algorithm
